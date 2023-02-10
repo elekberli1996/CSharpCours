@@ -7,11 +7,11 @@ namespace Constructor
         static void Main(string[] args)
         {
             // bir klas new edildiyinde calisan kod blokudur
-            CustomerManager customerManager = new CustomerManager();
+            CustomerManager customerManager = new CustomerManager(33);
             customerManager.add();
             Product product = new Product();
             Product product1 = new Product(1, "emin");
-            EmployeManagment employeManagment = new EmployeManagment(new FileLogger());
+            EmployeManagment employeManagment = new EmployeManagment(new DatabaseLogger());
             employeManagment.Add();
 
             Motor motor = new Motor("mehraba");
