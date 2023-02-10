@@ -40,7 +40,7 @@ namespace _Loops
             }
 
 
-            for (int c = 3; c < 100000; c++)
+            for (int c = 3; c < 10000; c++)
             {
 
 
@@ -50,7 +50,7 @@ namespace _Loops
             {
                 if (c % i == 0)
                 {
-                    Console.WriteLine("asal            sayi         deil");
+                    Console.WriteLine("asal      sayi     deil");
                     break;
                 }
                 else if(c/2==i && c%i!=0){

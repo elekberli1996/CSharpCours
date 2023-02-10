@@ -19,6 +19,7 @@ namespace Methods
             int c; // out keyvordde ilk deyer verilmeyinin farki yok
             int d = 10;
             Console.WriteLine( Add5(ref a, b));
+            Console.WriteLine(a);
             Console.WriteLine(Add6(out c, d));
             Console.WriteLine(a);
 
@@ -61,7 +62,8 @@ namespace Methods
 
         // ref keywodu ile referans tipler kimi deyer tipi deisdire bilerik
         //out
-        //refin alternetivi out keyvordu mantik olarak aynisi farki refde a yi set etmis olmaniz gerek deyeri olmali outda zorunluku yok
+        //refin alternetivi out keyvordu mantik olarak aynisi farki refde
+        //a yi set etmis olmaniz gerek deyeri olmali outda zorunluku yok
 
         //metodun icerisinde bi kere set edilmelidir outda
         static int Add6 (out int c, int d)
